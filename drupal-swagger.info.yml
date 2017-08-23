@@ -1,0 +1,6 @@
+name: SwaggerUI module
+description: Creates a page integrating SwaggerUI
+package: Custom
+type: module
+version: 0.1
+core: 8.x
