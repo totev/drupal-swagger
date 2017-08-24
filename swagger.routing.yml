@@ -1,0 +1,7 @@
+swagger.content:
+  path: '/swagger'
+  defaults:
+    _title: 'Title->SwaggerUI'
+    _controller: '\Drupal\swagger\Controller\SwaggerController::content'
+  requirements:
+    _permission: 'access content'

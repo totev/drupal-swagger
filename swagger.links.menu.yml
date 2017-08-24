@@ -1,0 +1,6 @@
+swagger.admin:
+  title: 'SwaggerUI settings'
+  description: 'SwaggerUI example settings'
+  parent: system.admin_config_development
+  route_name: swagger.content
+  weight: 100

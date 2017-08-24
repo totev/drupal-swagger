@@ -1,0 +1,15 @@
+
+<?php
+
+/**
+ * @file
+ * SwaggerUI module.
+ */
+
+
+/**
+* Load the external swagger-ui libraries.
+*/
+function swagger_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'swagger/swagger-ui';
+}

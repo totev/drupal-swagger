@@ -1,0 +1,13 @@
+swagger-ui:
+ version: 1.x
+ header: true
+ css:
+    theme:
+      assets/swagger-ui.css: {}
+ js:
+    assets/swagger-ui-bundle.js: {}
+    assets/swagger-ui-standalone-preset.js: {}
+    assets/load_that_thing.js: {}
+
+ dependencies:
+    - core/jquery
